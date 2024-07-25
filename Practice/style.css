@@ -1,0 +1,118 @@
+
+
+/* ----------------------------    First CSS File -------------------------------- */
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ======================== >>>>>  1.Basics of CSS    <<<<< =========================== */
+/* ======================= >>>>  Muhammad Bilal Ashiq   <<<< ========================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+
+/* ------------------------------------- Topics --------------------------------------- */
+/* --------------------------------- basics of CSS ------------------------------------ */
+/* ------------------------------  1. Colors           -------------------------------- */
+/* ------------------------------  2. Selectors        -------------------------------- */
+/* ------------------------------  3. Text Properties  -------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+
+
+/* ================================>>>>>  1. Colors   <<<<<<<================================================ */
+/* =====search color picker on google chrome  
+
+1. CSS stylesheet as this is
+2. Inline style 
+3. with the tag of style
+
+*/
+
+
+h1{
+    color: brown;                /* foreground color  */
+    color: rgb(0,0,255);
+    background-color: black;    /* background color */
+}
+
+p{
+    color: #ff0000;
+    background-color: #ffff00;
+}
+
+button{
+    color:green
+}
+
+body{
+    background-color: black;
+}
+
+
+/* ========================================>>>>>  2. Selectors <<<<<<<================================================ */
+/*  1. Universal Selector  ---- for all*/
+
+*{
+    color:rgb(0, 255, 0)
+}
+
+
+
+/*   -------  2. Element Selector  ---- as we used separately*/
+
+
+
+
+/*  ------- 3. ID Selector  ---- to give one item one ID*/
+
+#id1{
+    background-color:#000000;
+    color:aqua;
+}
+#id2{
+    background-color:#ffff00;
+    color:red;  
+}
+
+
+/*   ------- 4. Class Selector  ---- to give multiple items same ID*/
+
+.CS{
+    background-color:#000000;
+    color:aqua;
+}
+
+
+/* ================================>>>>>  3. Text Properties  <<<<<<<================================================ */
+/* Text------- Font ---------- Unit   --------- line(text) hieght */
+p{
+    text-align: right;
+    text-decoration: blue dashed underline;
+}
+h2{
+    text-align: center;
+    text-decoration:red wavy underline; 
+}
+
+#id1{
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   /*fall back,,, if else,, phla ni tu agla*/
+}
+#id3{
+    font-weight:lighter; 
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------------  Units   ----&&-----    line hieght   ----&&-----     text transform    -------- */
+#unit{
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+#outer{
+    text-transform: uppercase;
+    /* if we make some changes in parent it will be automatically changed in child */
+}
