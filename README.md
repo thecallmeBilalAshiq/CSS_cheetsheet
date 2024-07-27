@@ -2,7 +2,7 @@
 Html and CSS CheetSeet practiced by me.
 
 > [!WARNING]
-> It is incomplete repository and will be completedd soon.
+> It is incomplete repository and will be completed soon.
 
 <hr>
 
