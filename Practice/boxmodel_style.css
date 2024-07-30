@@ -1,0 +1,109 @@
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ======================== >>>>>  1.Box Model CSS    <<<<< =========================== */
+/* ======================= >>>>  Muhammad Bilal Ashiq   <<<< ========================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+
+/* --------------------------------- Topics ------------------------------------ */
+/* ------------------------------  1. Hieght    -------------------------------- */
+/* ------------------------------  2. Width     -------------------------------- */
+/* ------------------------------  3. Padding   -------------------------------- */
+/* ------------------------------  4. Border    -------------------------------- */
+/* ------------------------------  5. Margin    -------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+
+
+/* ================================>>>>>  1. Colors   <<<<<<<================================================ */
+*{
+    padding: 0px;
+    margin: 0px;
+    color:red;
+}
+
+#navbar{
+    height: 50px;
+    background-color: #ff9f0f;
+}
+
+a{
+    margin-right: 190px;
+} 
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content{
+    height:450px;
+}
+
+footer {
+    background-color: #0f1111;
+    text-align: center;
+}
+
+/* #hbox{ */
+    /* height: 100px; */
+    /* width: 300px; */
+
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: brown; */
+
+    /* border: 3px,dashed,brown;   short hand method */
+    /* border-radius: 20px; */
+    /* border-radius: 20%; */
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    /* padding: 10px 20px 30px 40px; */
+    /*   
+        padding: top right bottom left  
+        margin: top right bottom left  
+        padding: 50px   ---- for all same padding from top right bottom left
+    */
+
+
+    /* text-align: center; */
+    /* background-color: aqua; */
+
+/* } */
+
+/* div{ */
+    /* height: 100px; */
+    /* width:  100px; */
+
+    /* border-width: 2px; */
+    /* border-style:solid; */
+    /* border-color: red;   */
+    /* border-radius: 20%;      it will make a circle if hieght and width same */
+
+    /* padding: 10px 20px 30px 40px; */
+    /* margin: 50px 60px 70px 80px; */
+
+    /* background-color: yellowgreen; */
+/* } */
+
+
+/* div{ */
+    /* width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px; */
+    /* display: inline; */
+    /* display: inline-block; */
+    /* background-color: rgba(0,0,255,0.5);    opacity (4th)*/
+    /* display: none; */
+/* } */
+
+/* #id2 { */
+    /* visibility: hidden;    space empty */
+    /* display: none;          no space parameter*/
+/* } */
